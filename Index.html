@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="icon" type="images/favicon" href="images/favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav-flex">
+        <div class="nav-left nav-flex">
+            <img src="images/menu.png" class="menu">
+            <img src="images/logo1.png" class="logo">
+        </div>
+        <div class="nav-middle nav-flex">
+            <div class="search-box nav-flex ">
+                <input type="text" placeholder="search">
+                <img src="images/search.png" alt="">
+            </div>
+            <img src="images/voice-search.png" class="mic-icon">
+        </div>
+        <div class="nav-right nav-flex">
+            <img src="images/upload.png">
+            <img src="images/more.png">
+            <img src="images/notification.png">
+            <img src="images/Vikas.jpeg" alt="" class="user-icon">
+        </div>
+    </nav>
+
+    <!-- -----------------------   sidebar   ----------- -->
+    <div class="sidebar">
+        <div class="shortcut-links">
+            <a href=""><img src="images/home.png" alt="">
+                <p>Home</p>
+            </a>
+            <a href=""><img src="images/explore.png" alt="">
+                <p>Explore</p>
+            </a>
+            <a href=""><img src="images/subscriprion.png" alt="">
+                <p>Subscription</p>
+            </a>
+            <a href=""><img src="images/library.png" alt="">
+                <p>Library</p>
+            </a>
+            <a href=""><img src="images/history.png" alt="">
+                <p>History</p>
+            </a>
+            <a href=""><img src="images/playlist.png" alt="">
+                <p>Playlist</p>
+            </a>
+            <a href=""><img src="images/show-more.png" alt="">
+                <p>Show More</p>
+            </a>
+        </div>
+        <hr>
+        <div class="subscribed">
+            <h3>Subscriptions</h3>
+            <a href=""><img src="images/Vikas.jpeg" alt="">
+                <p>Vikas Rohal</p>
+            </a>
+            <a href=""><img src="images/simon.png" alt="">
+                <p>Simon Billa</p>
+            </a>
+            <a href=""><img src="images/tom.png" alt="">
+                <p>Tom Cruise</p>
+            </a>
+            <a href=""><img src="images/Jack.png" alt="">
+                <p>Jack Smith</p>
+            </a>
+            <a href=""><img src="images/megan.png" alt="">
+                <p>Megan Holl</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- ----------------main----------- -->
+    <div class="container">
+        <div class="container1">
+            <div class="banner">
+                <img src="images/banner.png">
+            </div>
+            <div class="banner">
+                <img src="images/banner1.jpg">
+            </div>
+            <div class="banner">
+                <img src="images/banner3.jpg">
+            </div>
+            <div class="banner">
+                <img src="images/banner4.jpg">
+            </div>
+            <div class="banner">
+                <img src="images/banner5.jpg">
+            </div>
+
+            <span class="button left" onclick="controller(-1) ">&#10094</span>
+            <span class="button right" onclick="controller(-1) ">&#10095</span>
+        </div>
+
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="play-video.html"><img src="images/thumbnail5.png" class="thumbnail"></a>
+                <div class="nav-flex">
+                    <a href=""><img src="images/simon.png"></a>
+                    <div class="vid-info">
+                        <a href="play-video.html">Best Channel for Study Video in the world is here</a>
+                        <p>Vikas Tutorial</p>
+                        <p>890K views &bull; 32 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail6.png" class="thumbnail"></a>
+                <div class="nav-flex">
+                    <a href=""><img src="images/tom.png"></a>
+                    <div class="vid-info">
+                        <a href="play-video.html">Best Channel for Study Video in the world is here</a>
+
+                        <p>Vikas Tutorial</p>
+                        <p>369K views &bull; 54 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail1.png" class="thumbnail"></a>
+                <div class="nav-flex">
+                    <a href=""><img src="images/Vikas.jpeg"></a>
+                    <div class="vid-info">
+                        <a href="play-video.html">Best Channel for Study Video in the world is here</a>
+
+                        <p>Vikas Tutorial</p>
+                        <p>500K views &bull; 15 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail2.png" class="thumbnail"></a>
+                <div class="nav-flex">
+                    <a href=""><img src="images/Jack.png"></a>
+                    <div class="vid-info">
+                        <a href="play-video.html">Best Channel for Study Video in the world is here</a>
+
+                        <p>Vikas Tutorial</p>
+                        <p>231K views &bull; 42 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail3.png" class="thumbnail"></a>
+                <div class="nav-flex">
+                    <a href=""><img src="images/megan.png"></a>
+                    <div class="vid-info">
+                        <a href="play-video.html">Best Channel for Study Video in the world is here</a>
+
+                        <p>Vikas Tutorial</p>
+                        <p>980K views &bull; 6 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail4.png" class="thumbnail"></a>
+                <div class="nav-flex">
+                    <a href=""><img src="images/Vikas.jpeg"></a>
+                    <div class="vid-info">
+                        <a href="play-video.html">Best Channel for Study Video in the world is here</a>
+
+                        <p>Vikas Tutorial</p>
+                        <p>70K views &bull; 4 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail7.png" class="thumbnail"></a>
+                <div class="nav-flex">
+                    <a href=""><img src="images/Vikas.jpeg"></a>
+                    <div class="vid-info">
+                        <a href="play-video.html">Best Channel for Study Video in the world is here</a>
+
+                        <p>Vikas Tutorial</p>
+                        <p>70K views &bull; 4 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href=""><img src="images/thumbnail8.png" class="thumbnail"></a>
+                <div class="nav-flex">
+                    <a href=""><img src="images/Vikas.jpeg"></a>
+                    <div class="vid-info">
+                        <a href="play-video.html">Best Channel for Study Video in the world is here</a>
+
+                        <p>Vikas Tutorial</p>
+                        <p>70K views &bull; 4 days</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        var menuIcon = document.querySelector(".menu");
+        var sidebar = document.querySelector(".sidebar");
+        var container = document.querySelector(".container")
+
+
+        menuIcon.onclick = function () {
+            sidebar.classList.toggle("small-sidebar")
+            container.classList.toggle("large-container")
+        }
+
+        function slideshow(num) {
+            let slides = document.getElementsByClassName("banner")
+
+            if (num == slides.length) {
+                num = 0;
+                flag = 0;
+            }
+
+            if (num < 0) {
+                num = slides.length - 1;
+                flag = slides.length - 1;
+            }
+
+            for (let y of slides) {
+                y.style.display = "none"
+            }
+            slides[num].style.display = "block"
+        }
+        var flag = 0;
+        slideshow(flag)
+
+        function controller(x) {
+            flag = flag + x
+            slideshow(flag)
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/0166aa4a0c.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
