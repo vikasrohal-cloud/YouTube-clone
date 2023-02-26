@@ -1,8 +1,8 @@
 
-var onmenuBar = document.querySelector(".onmenuBar")
-var menuBar = document.querySelector(".menuBar")
+// var onmenuBar = document.querySelector(".onmenuBar")
+// var menuBar = document.querySelector(".menuBar")
 
-onmenuBar.onclick = function(){
-    menuBar.classList.toggle("active")
-}
+// onmenuBar.onclick = function(){
+//     menuBar.classList.toggle("active")
+// }
 

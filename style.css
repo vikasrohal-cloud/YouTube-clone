@@ -138,15 +138,20 @@ nav{
     width: 30px;
     border-radius: 40%;
     align-items: center;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .right{
     right: 10px;
-    background-color: #fff;
+    background-color: rgba(110, 109, 109, 0.5)
 
 }
 .left{
     left: 10px;
-    background-color: #fff;
+    background-color: rgba(110, 109, 109, 0.5)
+
 }
 .container{
     /* position: relative; */
@@ -155,6 +160,7 @@ nav{
     padding-bottom: 20px;
     padding-left: 17%;
     padding-right: 2%;
+   
 }
 .container1{
     position: relative;
@@ -220,8 +226,19 @@ nav{
     margin: 2px 0;
 }
 
+@media (max-width:  950px){
+    .moreImg{
+        display: none;
+    }
+}
 
-@media (max-width:  750px){
+@media (max-width:  870px){
+    .notsImg{
+        display: none;
+    }
+}
+
+@media (max-width:  800px){
     .sidebar{
         display: none;
     }
@@ -243,6 +260,7 @@ nav{
     .logo {
         width: 90px;
         padding-left: 3%;
+        margin-right: 2px;
     }
     .nav-middle .search-box input{
         width: 100%;
@@ -251,6 +269,10 @@ nav{
         display: none;
     }
 }
+@media (max-width:  800px){
+    .nav-middle .search-box input{
+        margin-left: 2px;
+    }}
 
 /* ==========_________2nd page__________play-video____________======= */
 /* .menuBar{
@@ -462,13 +484,21 @@ nav{
     }
     .right-sidebar{
         /* margin-top: 50px; */
-       flex-basis: 100%;
+        flex-basis: 100%;
+        margin: 0 1px;
     }
-
-
+    
+    
 }
 
+@media ( max-width:200px){
+    .right-sidebar{
+        width: 100%;
+    }
 
+    .side-video-list{
+        width: 100% ;
+    }
 
-
+}
 
